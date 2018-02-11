@@ -121,7 +121,7 @@ riqi=soup.find(id="contrast")
 for string in riqi.stripped_strings:
 	riqilist.append(string)
 chuan=dict(zip(riqilist,chuanlist))
-print(chuan)
+#print(chuan)
 #-----------------
 chuantoday=str('，'.join(chuan['今天']))
 
